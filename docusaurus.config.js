@@ -6,7 +6,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'henhen724', // Usually your GitHub org/user name.
-  projectName: 'widaq', // Usually your repo name.
+  projectName: 'widaq-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Wi DAQ',
@@ -21,12 +21,12 @@ module.exports = {
           label: 'User Docs',
           position: 'left',
         },
-        {
-          to: 'internal-docs/',
-          activeBasePath: 'internal-docs',
-          label: 'Internal Docs',
-          position: 'left',
-        },
+        // {
+        //   to: 'internal-docs/',
+        //   activeBasePath: 'internal-docs',
+        //   label: 'Internal Docs',
+        //   position: 'left',
+        // },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',

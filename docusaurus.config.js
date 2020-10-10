@@ -7,6 +7,8 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'henhen724', // Usually your GitHub org/user name.
   projectName: 'widaq-docs', // Usually your repo name.
+  url: 'https://henhen724.github.io',
+  baseUrl: '/widaq-docs/',
   themeConfig: {
     navbar: {
       title: 'Wi DAQ',
